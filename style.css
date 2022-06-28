@@ -1,0 +1,64 @@
+/*Header*/
+#banner{
+    background-color: darkblue;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:3em;
+    text-align: center;
+}
+
+#banner img{
+    height: 3em;
+}
+
+/*Game*/
+#game{
+    background-image: url(./images/asgard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#game .title{
+    text-align: center;
+    font-size: 5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+}
+
+#game .subtitle{
+    text-align: center;
+    font-size: 3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+}
+
+#game .scoreboard{
+    display: flex;
+    justify-content: center;
+}
+
+#game .scores{
+    padding: 2em;
+    font-size: 2em;
+}
+
+#game .display{
+    display: flex;
+    justify-content: center;
+}
+
+#game .card img{
+    height: 5em;
+    padding: 3em;
+}
+
+#game .choices{
+    display: flex;
+    justify-content: center;
+}
+
+#game .choices input{
+    margin:2em;
+}

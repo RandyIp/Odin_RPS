@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+    <!--Header for website-->
+    <div id="banner">
+        <p>RPS vs Odin Project</p>
+        <img src="./images/odin.svg" alt="Odin Project image">
+    </div>
+
+    <!--Container for game-->
+    <div id="game">
+        <div class="title">Can you defeat the king of Asgard in RPS?</div>
+        <div class="subtitle">Pick a weapon (first to 5):</div>
+        <div class="scoreboard">
+            <div class="scores">
+                <p>Player</p>
+                <p id="player_score">0</p>
+            </div>
+            <div class="scores">
+                <p>Odin</p>
+                <p id="odin_score">0</p>
+            </div>
+        </div>
+        <div class="choices">
+            <input type="button" onclick=rock() value='rock'>
+            <input type="button" onclick=paper() value='paper'>
+            <input type="button" onclick=scissors() value='scissors'>
+    </div>
+</body>
+</html>
